@@ -1,0 +1,11 @@
+:root {
+  --color-text-title: #212121;
+  --color-text-description: #757575;
+  --color-text-white: #ffffff;
+  --color-text-hover: #2196f3;
+  --color-text-logo: #000000;
+  --color-bg-service: #2f303a;
+  --color-text-address: rgb(255, 255, 255, 0.6);
+  --color-bg-underheader: #ececec;
+  --color-bg-ourteam: #f5f4fa;
+}
