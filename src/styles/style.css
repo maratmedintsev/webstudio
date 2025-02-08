@@ -13,5 +13,71 @@
 }
 body {
   font-family: var(--font-primary);
-  line-height: 1.7;
+  line-height: 1.71;
+  font-size: 14px;
+  color: var(--color-text-description);
+  font-weight: 400;
+}
+.header-logo {
+  font-family: var(--font-secondary);
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--color-text-logo);
+}
+.nav-link {
+  font-weight: 500;
+}
+:hover {
+  color: var(--color-text-hover);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-text-white);
+  line-height: 1.36;
+}
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.87;
+  color: var(--color-text-white);
+}
+.advantages-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-text-title);
+}
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: var(--color-text-title);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: var(--color-text-title);
+}
+.teammate-name {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: var(--color-text-title);
+}
+.teammate-role {
+  font-size: 16px;
+  text-align: center;
+}
+.footer-homeaddress {
+  color: var(--color-text-white);
+}
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: var(--color-text-title);
 }
