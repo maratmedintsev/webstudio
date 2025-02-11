@@ -15,8 +15,9 @@ body {
   font-family: var(--font-primary);
   line-height: 1.71;
   font-size: 14px;
-  color: var(--color-text-description);
   font-weight: 400;
+  letter-spacing: 0.03cm;
+  color: var(--color-text-description);
 }
 .header-logo {
   font-family: var(--font-secondary);
@@ -26,6 +27,7 @@ body {
 }
 .nav-link {
   font-weight: 500;
+  letter-spacing: 0.02cm;
 }
 :hover {
   color: var(--color-text-hover);
@@ -33,6 +35,7 @@ body {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
+  letter-spacing: 0.06cm;
   text-align: center;
   text-transform: uppercase;
   color: var(--color-text-white);
@@ -41,6 +44,7 @@ body {
 .hero-button {
   font-weight: 700;
   font-size: 16px;
+  letter-spacing: 0.06cm;
   text-align: center;
   line-height: 1.87;
   color: var(--color-text-white);
@@ -49,6 +53,9 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   color: var(--color-text-title);
+}
+.advantages-text {
+  letter-spacing: 0.02cm;
 }
 .work-title {
   font-weight: 700;
@@ -80,4 +87,12 @@ body {
   font-size: 16px;
   text-align: center;
   color: var(--color-text-title);
+}
+.gallery-title {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--color-text-title);
+}
+.gallery-function {
+  font-size: 16px;
 }
