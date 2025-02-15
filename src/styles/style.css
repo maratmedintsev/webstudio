@@ -25,12 +25,29 @@ body {
   font-weight: 700;
   color: var(--color-text-logo);
 }
+.header-span {
+  font-family: var(--font-secondary);
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--color-text-hover);
+}
+
 .nav-link {
   font-weight: 500;
   letter-spacing: 0.02cm;
+  color: var(--color-text-title);
 }
-:hover {
+.contacts-link {
+  font-style: normal;
+}
+.contacts-link:hover {
   color: var(--color-text-hover);
+}
+.nav-link:hover {
+  color: var(--color-text-hover);
+}
+.hero {
+  background-color: var(--color-text-title);
 }
 .hero-title {
   font-weight: 900;
@@ -79,8 +96,21 @@ body {
   font-size: 16px;
   text-align: center;
 }
+.footer {
+  background-color: var(--color-text-title);
+}
 .footer-homeaddress {
   color: var(--color-text-white);
+  font-style: normal;
+}
+.footer-link {
+  font-style: normal;
+}
+.footer-logo {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--color-text-white);
+  font-family: var(--font-secondary);
 }
 .filter-button {
   font-weight: 500;
