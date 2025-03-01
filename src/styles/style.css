@@ -26,6 +26,10 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 .header-logo {
   font-family: var(--font-secondary);
   font-size: 26px;
@@ -55,6 +59,8 @@ body {
 }
 .hero {
   background-color: var(--color-text-title);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   font-weight: 900;
@@ -73,6 +79,10 @@ body {
   line-height: 1.87;
   color: var(--color-text-white);
 }
+.advantages {
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
 .advantages-title {
   font-weight: 700;
   text-transform: uppercase;
@@ -86,12 +96,15 @@ body {
   font-size: 36px;
   text-align: center;
   color: var(--color-text-title);
+  padding-bottom: 50px;
 }
 .team-title {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
   color: var(--color-text-title);
+  padding-top: 95px;
+  padding-bottom: 50px;
 }
 .teammate-name {
   font-weight: 500;
