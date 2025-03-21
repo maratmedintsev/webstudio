@@ -213,12 +213,12 @@ img {
 .gallery-list {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1170 px;
   margin-top: 35px;
   margin-bottom: 95px;
+  gap: 30px;
 }
 .gallery-item {
-  margin: 15px;
+  flex-basis: calc((100% - 30px) / 3);
 }
 .gallery-title {
   font-weight: 700;
