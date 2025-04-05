@@ -104,6 +104,7 @@ img {
   background-color: #2196f3;
   padding: 10px 32px;
   margin-top: 30px;
+  border-radius: 4px;
 }
 .advantages {
   padding-top: 95px;
@@ -114,9 +115,13 @@ img {
   gap: 30px;
 }
 .advantages-item::before {
+  content: "";
   display: block;
   height: 120px;
   background-color: #f5f4fa;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
 }
 .advantages-item:nth-child(1)::before {
   background-image: url(../img/advantages/details.svg);
@@ -165,7 +170,6 @@ img {
   font-size: 36px;
   text-align: center;
   color: var(--color-text-title);
-
   padding-bottom: 50px;
 }
 .teammate {
@@ -226,6 +230,7 @@ img {
 .filter-button:hover {
   color: white;
   background-color: var(--color-text-hover);
+  box-shadow: 0px 3px 0px 0px #f5f4fa;
 }
 .gallery-list {
   display: flex;
@@ -235,7 +240,7 @@ img {
   gap: 30px;
 }
 .gallery-item {
-  flex-basis: calc((100% - 30px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
 }
 .gallery-title {
   font-weight: 700;
