@@ -75,7 +75,11 @@ img {
   color: var(--color-text-hover);
 }
 .hero {
-  background-color: var(--color-text-title);
+  background-image: url(../img/hero-bg.jpg),
+    linear-gradient(rgb(47, 48, 58, 0.4));
+  background-size: cover, cover;
+  background-position: center, center;
+  background-repeat: no-repeat;
   padding-top: 200px;
   padding-bottom: 200px;
 }
