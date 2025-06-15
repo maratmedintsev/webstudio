@@ -152,12 +152,30 @@ img {
   gap: 30px;
   padding-bottom: 95px;
 }
+.work-item {
+  position: relative;
+}
 .work-title {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
   color: var(--color-text-title);
   padding-bottom: 50px;
+}
+.work-label {
+  font-weight: 700;
+  color: #ffffff;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(47, 48, 58, 0.8);
+  text-transform: uppercase;
+  height: 70px;
 }
 .team {
   background-color: var(--color-bg-ourteam);
@@ -178,9 +196,13 @@ img {
 }
 .teammate {
   background-color: white;
+  max-width: 270px;
+  border-radius: 10px;
 }
 .teammate-card-div {
   margin-bottom: 30px;
+  max-width: 270px;
+  max-height: 428px;
 }
 .teammate-name {
   font-weight: 500;
@@ -195,14 +217,50 @@ img {
   text-align: center;
   padding-bottom: 30px;
 }
+.icons-list {
+  display: flex;
+  flex-direction: row;
+  margin-left: 44px;
+  padding-bottom: 42px;
+  gap: 34px;
+}
+.icon-svg {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.clients-title {
+  font-size: 36px;
+  letter-spacing: 3%;
+  color: #212121;
+  padding-top: 95px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.clients-list {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 95px;
+  margin-left: 215px;
+}
+.clients-svg {
+  width: 170px;
+  height: 92px;
+  border: solid 1px #afb1b8;
+  padding: 16px 32px;
+  fill: #afb1b8;
+}
 .footer {
   background-color: var(--color-text-title);
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
 }
 .footer-container {
   display: flex;
   flex-direction: column;
+  margin-left: 215px;
 }
 .footer-homeaddress {
   color: var(--color-text-white);
