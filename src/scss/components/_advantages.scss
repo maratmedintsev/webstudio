@@ -1,0 +1,37 @@
+.advantages {
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+.advantages-list {
+  display: flex;
+  gap: 30px;
+}
+.advantages-item::before {
+  content: "";
+  display: block;
+  height: 120px;
+  background-color: #f5f4fa;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+.advantages-item:nth-child(1)::before {
+  background-image: url(../img/advantages/details.svg);
+}
+.advantages-item:nth-child(2)::before {
+  background-image: url(../img/advantages/clock.svg);
+}
+.advantages-item:nth-child(3)::before {
+  background-image: url(../img/advantages/chart.svg);
+}
+.advantages-item:nth-child(4)::before {
+  background-image: url(../img/advantages/astronaut.svg);
+}
+.advantages-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-text-title);
+}
+.advantages-text {
+  letter-spacing: 0.02cm;
+}
