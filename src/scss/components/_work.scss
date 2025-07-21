@@ -1,0 +1,30 @@
+.work-list {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 95px;
+}
+.work-item {
+  position: relative;
+}
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: var(--color-text-title);
+  padding-bottom: 50px;
+}
+.work-label {
+  font-weight: 700;
+  color: #ffffff;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(47, 48, 58, 0.8);
+  text-transform: uppercase;
+  height: 70px;
+}

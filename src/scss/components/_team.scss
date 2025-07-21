@@ -1,0 +1,40 @@
+.team {
+  background-color: var(--color-bg-ourteam);
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+.team-list {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 95px;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: var(--color-text-title);
+  padding-bottom: 50px;
+}
+.teammate {
+  background-color: white;
+  max-width: 270px;
+  border-radius: 10px;
+}
+.teammate-card-div {
+  margin-bottom: 30px;
+  max-width: 270px;
+  max-height: 428px;
+}
+.teammate-name {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: var(--color-text-title);
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.teammate-role {
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 30px;
+}

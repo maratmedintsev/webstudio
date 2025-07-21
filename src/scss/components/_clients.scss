@@ -1,0 +1,21 @@
+.clients-title {
+  font-size: 36px;
+  letter-spacing: 3%;
+  color: #212121;
+  padding-top: 95px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.clients-list {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 95px;
+  margin-left: 215px;
+}
+.clients-svg {
+  width: 170px;
+  height: 92px;
+  border: solid 1px #afb1b8;
+  padding: 16px 32px;
+  fill: #afb1b8;
+}

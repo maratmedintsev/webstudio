@@ -1,0 +1,79 @@
+:root {
+  --color-text-title: #212121;
+  --color-text-description: #757575;
+  --color-text-white: #ffffff;
+  --color-text-hover: #2196f3;
+  --color-text-logo: #000000;
+  --color-bg-service: #2f303a;
+  --color-text-address: rgb(255, 255, 255, 0.6);
+  --color-bg-underheader: #ececec;
+  --color-bg-ourteam: #f5f4fa;
+  --font-primary: "Roboto", serif;
+  --font-secondary: "Raleway", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  font-size: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: var(--font-primary);
+  line-height: 1.71;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.03cm;
+  color: var(--color-text-description);
+}
+
+.footer {
+  background-color: var(--color-text-title);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 215px;
+}
+
+.footer-homeaddress {
+  color: var(--color-text-white);
+  font-style: normal;
+}
+
+.footer-link {
+  font-style: normal;
+}
+
+.footer-logo {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--color-text-white);
+  font-family: var(--font-secondary);
+}

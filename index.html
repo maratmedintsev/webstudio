@@ -17,7 +17,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./src/styles/style.css" />
+    <link rel="stylesheet" href="./src/css/main.css" />
     <link rel="stylesheet" href="./src/styles/reset.css" />
   </head>
   <body>
@@ -61,7 +61,14 @@
       <section class="hero">
         <div class="container hero-container">
           <h2 class="hero-title">Ефективні рішення для вашого бізнесу</h2>
-          <button class="hero-button">Замовити послугу</button>
+          <button class="hero-button btn-open" data-open-modal>
+            Замовити послугу
+          <div class="backdrop is-hidden">
+            <div class="modal">
+              <button class="btn" data-close-modal>Закрити</button>
+              <p>....</p>
+            </div>
+          </div>
         </div>
       </section>
       <section class="advantages">
@@ -414,5 +421,6 @@
         </ul>
       </div>
     </footer>
+    <script src="./src/modal.js"></script>
   </body>
 </html>
