@@ -1,0 +1,7 @@
+@mixin team-titles($font-size, $font-weight) {
+  font-family: var(--font-primary);
+  letter-spacing: 3%;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  color: #212121;
+}

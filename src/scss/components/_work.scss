@@ -7,11 +7,7 @@
   position: relative;
 }
 .work-title {
-  font-weight: 700;
-  font-size: 36px;
-  text-align: center;
-  color: var(--color-text-title);
-  padding-bottom: 50px;
+  @extend %h2titles;
 }
 .work-label {
   font-weight: 700;

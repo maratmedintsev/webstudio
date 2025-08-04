@@ -9,10 +9,8 @@
   margin-bottom: 95px;
 }
 .team-title {
-  font-weight: 700;
-  font-size: 36px;
+  @include team-titles(36px, 700);
   text-align: center;
-  color: var(--color-text-title);
   padding-bottom: 50px;
 }
 .teammate {
@@ -26,10 +24,8 @@
   max-height: 428px;
 }
 .teammate-name {
-  font-weight: 500;
-  font-size: 16px;
+  @include team-titles(16px, 500);
   text-align: center;
-  color: var(--color-text-title);
   margin-bottom: 10px;
   margin-top: 30px;
 }

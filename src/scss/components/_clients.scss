@@ -1,9 +1,6 @@
 .clients-title {
-  font-size: 36px;
-  letter-spacing: 3%;
-  color: #212121;
+  @extend %h2titles;
   padding-top: 95px;
-  text-align: center;
   padding-bottom: 50px;
 }
 .clients-list {
